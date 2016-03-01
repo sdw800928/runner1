@@ -1,0 +1,88 @@
+﻿Build started 2016/2/29 下午 04:50:37.
+     1>Project "C:\Users\HOU\Downloads\AntMan\AntMan\proj.win32\AntMan.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         F:\Program Files\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\HOU\Downloads\cocos2d-x-3.10\cocos\audio\include" /I"C:\Users\HOU\Downloads\cocos2d-x-3.10\external" /I"C:\Users\HOU\Downloads\cocos2d-x-3.10\external\chipmunk\include\chipmunk" /I"C:\Users\HOU\Downloads\cocos2d-x-3.10\extensions" /I..\Classes /I.. /I"C:\Users\HOU\Downloads\cocos2d-x-3.10\cocos\2d\..\..\cocos\editor-support" /I"C:\Users\HOU\Downloads\cocos2d-x-3.10\cocos\2d\..\..\cocos" /I"C:\Users\HOU\Downloads\cocos2d-x-3.10\cocos\2d\..\..\cocos\platform" /I"C:\Users\HOU\Downloads\cocos2d-x-3.10\cocos\2d\..\..\cocos\platform\desktop" /I"C:\Users\HOU\Downloads\cocos2d-x-3.10\cocos\2d\..\..\external\glfw3\include\win32" /I"C:\Users\HOU\Downloads\cocos2d-x-3.10\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /I"C:\Users\HOU\Downloads\cocos2d-x-3.10\cocos\2d\..\..\external\freetype2\include\win32\freetype2" /I"C:\Users\HOU\Downloads\cocos2d-x-3.10\cocos\2d\..\..\external\freetype2\include\win32\\" /I"C:\Users\HOU\Downloads\cocos2d-x-3.10\cocos\2d\..\..\external" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug.win32\\" /Fd"Debug.win32\vc140.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AntMan.cpp ..\Classes\AppDelegate.cpp ..\Classes\GameOverScene.cpp ..\Classes\GameScene.cpp ..\Classes\Ground.cpp ..\Classes\Items.cpp ..\Classes\MainMenuScene.cpp ..\Classes\Obstacle.cpp ..\Classes\SplashScene.cpp main.cpp
+         AntMan.cpp
+         AppDelegate.cpp
+         GameOverScene.cpp
+         GameScene.cpp
+         Ground.cpp
+         Items.cpp
+         MainMenuScene.cpp
+         Obstacle.cpp
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\2d\ccparticlesystemquad.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\AppDelegate.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\2d\ccparticlesystemquad.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\AntMan.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\2d\ccparticlesystemquad.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\GameScene.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\2d\ccparticlesystemquad.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\Obstacle.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\2d\ccparticlesystemquad.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\MainMenuScene.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\2d\ccparticlesystemquad.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\Ground.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\2d\ccparticlesystemquad.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\Items.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\physics\ccphysicsbody.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\GameScene.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\physics\ccphysicsbody.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\AppDelegate.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\physics\ccphysicsbody.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\MainMenuScene.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\physics\ccphysicsshape.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\GameScene.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\physics\ccphysicsshape.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\AppDelegate.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\physics\ccphysicsshape.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\MainMenuScene.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\physics\ccphysicsbody.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\Obstacle.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\physics\ccphysicsbody.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\AntMan.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\physics\ccphysicsshape.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\Obstacle.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\physics\ccphysicsshape.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\AntMan.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\physics\ccphysicsbody.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\Ground.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\physics\ccphysicsshape.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\Ground.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\physics\ccphysicsbody.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\Items.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\physics\ccphysicsshape.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\Items.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\platform\ccsaxparser.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\GameScene.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\platform\ccsaxparser.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\MainMenuScene.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\platform\ccsaxparser.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\AppDelegate.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\platform\ccsaxparser.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\AntMan.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\platform\ccsaxparser.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\Obstacle.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\platform\ccsaxparser.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\Ground.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\platform\ccsaxparser.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\Items.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\2d\ccparticlesystemquad.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\GameOverScene.cpp)
+     1>c:\users\hou\downloads\antman\antman\classes\appdelegate.cpp(40): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>c:\users\hou\downloads\antman\antman\classes\obstacle.cpp(33): warning C4305: '=': truncation from 'double' to 'float'
+     1>c:\users\hou\downloads\antman\antman\classes\items.cpp(38): warning C4305: '=': truncation from 'double' to 'float'
+     1>c:\users\hou\downloads\antman\antman\classes\items.cpp(84): warning C4305: '=': truncation from 'double' to 'float'
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\physics\ccphysicsbody.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\GameOverScene.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\physics\ccphysicsshape.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\GameOverScene.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\platform\ccsaxparser.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\GameOverScene.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\ui\uiscale9sprite.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\MainMenuScene.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\ui\uiscale9sprite.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\GameScene.cpp)
+     1>c:\users\hou\downloads\antman\antman\classes\gamescene.cpp(112): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>c:\users\hou\downloads\antman\antman\classes\gamescene.cpp(142): warning C4996: 'cocos2d::Director::sharedDirector': was declared deprecated
+         c:\users\hou\downloads\cocos2d-x-3.10\cocos\base\ccdirector.h(138): note: see declaration of 'cocos2d::Director::sharedDirector'
+     1>c:\users\hou\downloads\antman\antman\classes\gamescene.cpp(311): warning C4996: 'cocos2d::CCScheduler': was declared deprecated
+         c:\users\hou\downloads\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(770): note: see declaration of 'cocos2d::CCScheduler'
+     1>c:\users\hou\downloads\antman\antman\classes\gamescene.cpp(311): warning C4996: 'cocos2d::Director::sharedDirector': was declared deprecated
+         c:\users\hou\downloads\cocos2d-x-3.10\cocos\base\ccdirector.h(138): note: see declaration of 'cocos2d::Director::sharedDirector'
+         c:\users\hou\downloads\cocos2d-x-3.10\cocos\deprecated\ccdeprecated.h(770): note: see declaration of 'cocos2d::CCScheduler'
+     1>c:\users\hou\downloads\antman\antman\classes\gamescene.cpp(376): warning C4305: 'argument': truncation from 'double' to 'float'
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\ui\uiscale9sprite.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\GameOverScene.cpp)
+         SplashScene.cpp
+         main.cpp
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\2d\ccparticlesystemquad.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file main.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\physics\ccphysicsbody.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file main.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\physics\ccphysicsshape.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file main.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\2d\ccparticlesystemquad.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\SplashScene.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\platform\ccsaxparser.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file main.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\physics\ccphysicsbody.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\SplashScene.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\physics\ccphysicsshape.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\SplashScene.cpp)
+     1>c:\users\hou\downloads\cocos2d-x-3.10\cocos\platform\ccsaxparser.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss (compiling source file ..\Classes\SplashScene.cpp)
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug.win32\game.res" game.rc 
+       PreLinkEvent:
+         if not exist "C:\Users\HOU\Downloads\AntMan\AntMan\proj.win32\Debug.win32\" mkdir "C:\Users\HOU\Downloads\AntMan\AntMan\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\Users\HOU\Downloads\cocos2d-x-3.10\prebuilt\win32\*.*" "C:\Users\HOU\Downloads\AntMan\AntMan\proj.win32\Debug.win32\"
+         
+         :VCEnd
+         找不到檔案 - *.*
+         已複製 0 個檔案
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(128,5): error MSB3073: The command "if not exist "C:\Users\HOU\Downloads\AntMan\AntMan\proj.win32\Debug.win32\" mkdir "C:\Users\HOU\Downloads\AntMan\AntMan\proj.win32\Debug.win32\"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(128,5): error MSB3073: xcopy /Y /Q "C:\Users\HOU\Downloads\cocos2d-x-3.10\prebuilt\win32\*.*" "C:\Users\HOU\Downloads\AntMan\AntMan\proj.win32\Debug.win32\"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(128,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(128,5): error MSB3073: :VCEnd" exited with code 4.
+     1>Done Building Project "C:\Users\HOU\Downloads\AntMan\AntMan\proj.win32\AntMan.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:12.09
